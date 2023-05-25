@@ -2,7 +2,7 @@
         <div class="mn-content fixed-sidebar">
             <header class="mn-header navbar-fixed">
 
-                <nav class="navbar navbar-expand-lg navbar-light py-3 blue-grey darken-1" >
+                <nav class="navbar navbar-expand-lg navbar-light py-3 light-blue darken-1" >
                     <div class="nav-wrapper row">
                         <b class="text-dark">Employee Leave Management System</b>
 
