@@ -49,16 +49,15 @@ if (isset($_POST['signin'])) {
             aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse d-flex justify-content-center align-items-center" id="navbarNavAltMarkup">
+        <div class="collapse navbar-collapse justify-content-center align-items-center" id="navbarNavAltMarkup">
             <div class="navbar-nav d-flex justify-content-center align-items-center">
                 <!-- <a class="nav-item text-white font-weight-bold nav-link active ml-3" href="#">Home <span class="sr-only">(current)</span></a> -->
                 <a class="nav-item text-white font-weight-bold nav-link ml-3" href="#">Admin Login</a>
                 <a class="nav-item text-white font-weight-bold nav-link ml-3" href="../index.php">Employee Login</a>
-
             </div>
         </div>
     </nav>
-    <main class="mn-inner mt-5">
+    <main class="mn-inner main-shifted">
         <div class="row d-flex justify-content-center align-items-center">
             <h4 class="font-weight-bold text-center blue-gray-text text-darken-2">Welcome to ELMS</h4>
 
@@ -77,10 +76,10 @@ if (isset($_POST['signin'])) {
                                                 autocomplete="off" required>
                                             <label for="email">Enter Username</label>
                                         </div>
-                                        <div class="input-field col s12">
-                                            <input id="password" type="password" class="validate" name="password"
-                                                autocomplete="off" required>
+                                        <div class="input-field col s12" style="display: flex; align-items: center;">
+                                            <input id="password" type="password" class="validate" name="password" autocomplete="off" required>
                                             <label for="password">Enter Password</label>
+                                            <i class="material-icons toggle-password" onclick="togglePasswordField()">visibility_off</i>
                                         </div>
                                         <div class="col s12 center m-t-sm">
 
@@ -98,6 +97,7 @@ if (isset($_POST['signin'])) {
 
 
     <!-- Javascripts -->
+    <script src="../assets/js/custom.js"></script>
     <script src="../assets/plugins/materialize/js/materialize.min.js"></script>
     <script src="../assets/plugins/material-preloader/js/materialPreloader.min.js"></script>
     <script src="../assets/plugins/jquery-blockui/jquery.blockui.js"></script>

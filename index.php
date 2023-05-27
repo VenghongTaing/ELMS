@@ -131,6 +131,7 @@ if (isset($_POST['signin'])) {
     </main>
 
     <!-- Javascripts -->
+    <script src="assets/js/custom.js"></script>
     <script src="assets/plugins/materialize/js/materialize.min.js"></script>
     <script src="assets/plugins/material-preloader/js/materialPreloader.min.js"></script>
     <script src="assets/plugins/jquery-blockui/jquery.blockui.js"></script>
