@@ -21,7 +21,6 @@ $(document).ready(function () {
   });
 
   // navbar toggler button
-  // 添加事件监听器
   var navbarToggler = document.querySelector(".navbar-toggler");
   var navbarTarget = document.querySelector("#navbarNavAltMarkup");
 
@@ -29,7 +28,7 @@ $(document).ready(function () {
     console.error("无法获取导航栏相关元素");
     return;
   }
-
+  // 添加事件监听器
   navbarToggler.addEventListener("click", function () {
     navbarTarget.classList.toggle("show");
 
