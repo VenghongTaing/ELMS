@@ -49,38 +49,30 @@ if (isset($_POST['signin'])) {
     <link type="text/css" rel="stylesheet" href="assets/plugins/materialize/css/materialize.css" />
     <link href="assets/css/materialdesign.css" rel="stylesheet">
     <link href="assets/plugins/material-preloader/css/materialPreloader.min.css" rel="stylesheet">
-    <link href="assets/css/custom.css" rel="stylesheet">
-
 
     <!-- Theme Styles -->
     <link href="assets/css/alpha.min.css" rel="stylesheet" type="text/css" />
     <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/custom.css" rel="stylesheet">
     <script src="assets/plugins/jquery/jquery-2.2.0.min.js"></script>
-
-
-
-
-
 </head>
 
 <body>
-
-    <nav class="navbar navbar-expand-lg navbar-light py-3 blue-gray darken-3" style="background:#546e7a">
+    <nav class="navbar navbar-expand-lg navbar-light py-3" style="background:#546e7a">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
             aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse d-flex justify-content-center align-items-center" id="navbarNavAltMarkup">
+        <div class="collapse navbar-collapse justify-content-center align-items-center" id="navbarNavAltMarkup">
             <div class="navbar-nav d-flex justify-content-center align-items-center">
                 <!--   <a class="nav-item text-white font-weight-bold nav-link active ml-3" href="#">Home <span class="sr-only">(current)</span></a> -->
                 <a class="nav-item text-white font-weight-bold nav-link ml-3" href="admin/">Admin Login</a>
                 <a class="nav-item text-white font-weight-bold nav-link ml-3" href="index.php">Employee Login</a>
-
             </div>
         </div>
     </nav>
 
-    <main class="mn-inner mt-5">
+    <main class="mn-inner main-shifted">
         <div class="row d-flex justify-content-center align-items-center">
             <h4 class="font-weight-bold text-center blue-gray-text text-darken-2">Welcome to ELMS</h4>
 

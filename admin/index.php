@@ -52,7 +52,7 @@ if (isset($_POST['signin'])) {
         <div class="collapse navbar-collapse justify-content-center align-items-center" id="navbarNavAltMarkup">
             <div class="navbar-nav d-flex justify-content-center align-items-center">
                 <!-- <a class="nav-item text-white font-weight-bold nav-link active ml-3" href="#">Home <span class="sr-only">(current)</span></a> -->
-                <a class="nav-item text-white font-weight-bold nav-link ml-3" href="#">Admin Login</a>
+                <a class="nav-item text-white font-weight-bold nav-link ml-3" href="index.php">Admin Login</a>
                 <a class="nav-item text-white font-weight-bold nav-link ml-3" href="../index.php">Employee Login</a>
             </div>
         </div>
