@@ -3,9 +3,9 @@
         <nav class="navbar navbar-expand-lg navbar-light py-3 light-blue darken-1">
             <div class="nav-wrapper row">
 
-                <button class="sidebar-toggler" type="button" data-toggle="collapse" data-target="#slide-out"
+                <!-- <button class="sidebar-toggler" type="button" data-toggle="collapse" data-target="#slide-out"
                 aria-controls="slide-out" aria-expanded="true" aria-label="Toggle navigation">
-                    <span class="material-icons my-icon">menu</span>
+                    <span class="material-icons my-icon">menu</span> -->
                 </button>
 
                 <span class="title">
