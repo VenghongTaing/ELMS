@@ -3,10 +3,10 @@
         <nav class="navbar navbar-expand-lg navbar-light py-3 light-blue darken-1">
             <div class="nav-wrapper row">
 
-                <!-- <button class="sidebarbtn" type="button" data-toggle="collapse" data-target="#sidebartogglebutton"
-                aria-controls="sidebartogglebutton" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="sidebar-toggler" type="button" data-toggle="collapse" data-target="#slide-out"
+                aria-controls="slide-out" aria-expanded="true" aria-label="Toggle navigation">
                     <span class="material-icons my-icon">menu</span>
-                </button> -->
+                </button>
 
                 <span class="title">
                     <b class="text-dark">Employee Leave Management System</b>

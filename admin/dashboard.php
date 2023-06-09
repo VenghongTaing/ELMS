@@ -11,7 +11,6 @@ if (strlen($_SESSION['alogin']) == 0) {
     <html lang="en">
 
     <head>
-
         <!-- Title -->
         <title>Admin | Dashboard</title>
 
@@ -32,9 +31,8 @@ if (strlen($_SESSION['alogin']) == 0) {
         <!-- Theme Styles -->
         <link href="../assets/css/alpha.min.css" rel="stylesheet" type="text/css" />
         <link href="../assets/css/style.css" rel="stylesheet" type="text/css" />
+        <link href="../assets/css/custom.css" rel="stylesheet" type="text/css" />
         <script src="../assets/plugins/jquery/jquery-2.2.0.min.js"></script>
-
-
     </head>
 
     <body>
@@ -193,6 +191,7 @@ if (strlen($_SESSION['alogin']) == 0) {
 
 
         <!-- Javascripts -->
+        <script src="../assets/js/custom.js"></script>
         <script src="../assets/plugins/materialize/js/materialize.min.js"></script>
         <script src="../assets/plugins/material-preloader/js/materialPreloader.min.js"></script>
         <script src="../assets/plugins/jquery-blockui/jquery.blockui.js"></script>

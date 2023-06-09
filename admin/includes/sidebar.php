@@ -1,4 +1,4 @@
-<aside id="slide-out" class="side-nav white fixed">
+<aside class="side-nav white fixed sidebar-collapse" id="slide-out">
     <div class="side-nav-wrapper">
         <div class="sidebar-profile">
             <div class="sidebar-profile-image">

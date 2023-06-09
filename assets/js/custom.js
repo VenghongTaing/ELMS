@@ -20,12 +20,17 @@ $(document).ready(function () {
     togglePasswordField();
   });
 
-  // navbar toggler button
+// -----------navbar toggler button-----------
   var navbarToggler = document.querySelector(".navbar-toggler");
   var navbarTarget = document.querySelector("#navbarNavAltMarkup");
 
+  if (window.location.pathname !== 'index.php') {
+    // 当前页面不是 index.php，忽略此判断
+    return;
+  }
+
   if (!navbarToggler || !navbarTarget) {
-    console.error("无法获取导航栏相关元素");
+    console.error("无法获取导航栏navbar-toggler或navbarNavAltMarkup元素");
     return;
   }
 
@@ -72,6 +77,44 @@ $(document).ready(function () {
       checkWindowWidth();
     } else {
       navbarTarget.classList.remove("show");
+    }
+  });
+
+
+//-----------Sidebar toggler button-----------
+  // 获取 sidebar 元素
+  var sidebar = document.getElementById("slide-out");
+  console.log(sidebar);
+  // 获取 header 元素中的按钮元素
+  var sidebarToggler = document.querySelector(".sidebar-toggler");
+  console.log(sidebarToggler);
+
+  if (window.location.pathname !== 'dashboard.php') {
+    // 当前页面不是 dashboard.php，忽略此判断
+    return;
+  }
+
+  if (!sidebarToggler || !sidebarTarget) {
+    console.error("无法获取导航栏slide-out或sidebar-toggler元素");
+    return;
+  }
+  else{
+    console.log(sidebarToggler, sidebar);
+  }
+
+  // 监听按钮点击事件
+  sidebarToggler.addEventListener("click", function () {
+    console.log("sidebarToggler clicked");
+    // 获取按钮的 aria-expanded 属性值
+    var isExpanded = sidebarToggler.getAttribute("aria-expanded") === "true";
+
+    // 根据属性值来打开或关闭菜单
+    if (isExpanded) {
+      sidebar.classList.remove("show");
+      sidebarToggler.setAttribute("aria-expanded", "false");
+    } else {
+      sidebar.classList.add("show");
+      sidebarToggler.setAttribute("aria-expanded", "true");
     }
   });
 });
